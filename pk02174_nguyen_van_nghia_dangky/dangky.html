@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./dangkystyle.css">
+    <link href="./fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/brands.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/fontawesome.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/fontawesome.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/regular.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/regular.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/solid.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/svg-with-js.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/svg-with-js.min.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/v4-shims.css" rel="stylesheet">
+    <link href="./fontawesome-free-5.15.4-web/css/v4-shims.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <label for="light-dark" class="bat_mo">
+            <input type="checkbox" name="" id="light-dark" class="" title="Nút tích nghĩa pro">
+            <div class="light-dark">
+                <div class="nhannut">
+
+                </div>
+            </div>
+            
+        </label>
+        <script>
+            var checkbox_toggle = document.getElementById('light-dark');
+            checkbox_toggle.addEventListener('change', function(){
+                document.body.classList.toggle('light-dark');
+            });
+        </script>
+        <div class="headerlogo">
+            
+            <a href="#"><img src="./image/img_garena_logo.png" alt="img_garena_logo.png"></a>
+        </div>
+        <div class="headerselect">
+            <select class="lang">
+                <option value="en-US">International - English</option>
+                <option value="en-SG">Singapore - English</option>
+                <option value="zh-SG">新加坡 - 简体中文</option>
+                <option value="zh-TW">台灣 - 繁体中文</option>
+                <option value="en-PH">Philippines - English</option>
+                <option value="th-TH">ไทย - ไทย</option>
+                <option value="id-ID">Indonesia - Bahasa Indonesia</option>
+                <option value="vi-VN" selected>Việt Nam - Tiếng việt</option>
+                <option value="ru-RU">Россия - Русский</option>
+                <option value="en-MY">Malaysia - English</option>
+                <option value="pt-PT">Portugal - Português</option>
+                <option value="es-ES">España - Español</option>
+            </select>
+            <span class="icon-earth"><i class="fas fa-globe-asia"></i></span>
+        </div>
+        <div class="sautatca"></div>
+    </header>
+    <main>
+        <div class="signed">
+            <div class="signed_1">
+                Đăng ký
+            </div>
+    
+            <div class="tentruycap">
+                <form class="tong">
+                    <div class="home">
+                        <input class=" tong11 " type="text" name="truycap" value="" placeholder="Tên truy cập"></div>
+                    <div class="home">
+                        <input class="tong1" type="password" name="matkhau" id=""placeholder="Mật khẩu"></div>
+                    <div class="home">
+                        <input class="tong1" type="password" name="nhaplaimatkhau" id=""placeholder="Nhập lại mật khẩu"></div>
+                    <div class="home">
+                        <input class="tong1" type="text" name="truycap" value="" placeholder="Email"></div>
+                       <p>bạn cần sử dụng email này trong trường hợp cần đặt lại mật khẩu</p> 
+                    <div class="home">
+                        
+                        <select id="select-country-code" name="country-code" class="country-code">
+                            <option value="376">AD +376</option><option value="971">AE +971</option>
+                            <option value="93">AF +93</option><option value="1268">AG +1268</option>
+                            <option value="1264">AI +1264</option><option value="355">AL +355</option>
+                            <option value="374">AM +374</option><option value="244">AO +244</option>
+                            <option value="54">AR +54</option><option value="1684">AS +1684</option>
+                            <option value="43">AT +43</option><option value="61">AU +61</option>
+                            <option value="297">AW +297</option><option value="994">AZ +994</option>
+                            <option value="387">BA +387</option><option value="1246">BB +1246</option>
+                            <option value="880">BD +880</option><option value="32">BE +32</option>
+                            <option value="226">BF +226</option><option value="359">BG +359</option>
+                            <option value="973">BH +973</option><option value="257">BI +257</option>
+                            <option value="229">BJ +229</option><option value="1441">BM +1441</option>
+                            <option value="673">BN +673</option><option value="591">BO +591</option>
+                            <option value="55">BR +55</option><option value="1242">BS +1242</option>
+                            <option value="975">BT +975</option><option value="267">BW +267</option>
+                            <option value="375">BY +375</option><option value="501">BZ +501</option>
+                            <option value="1">CA +1</option><option value="243">CD +243</option>
+                            <option value="236">CF +236</option><option value="242">CG +242</option>
+                            <option value="41">CH +41</option><option value="225">CI +225</option>
+                            <option value="682">CK +682</option><option value="56">CL +56</option>
+                            <option value="237">CM +237</option><option value="86">CN +86</option>
+                            <option value="57">CO +57</option><option value="506">CR +506</option>
+                            <option value="53">CU +53</option><option value="238">CV +238</option>
+                            <option value="357">CY +357</option><option value="420">CZ +420</option>
+                            <option value="49">DE +49</option><option value="253">DJ +253</option>
+                            <option value="45">DK +45</option><option value="1767">DM +1767</option>
+                            <option value="1809">DO +1809</option><option value="213">DZ +213</option>
+                            <option value="593">EC +593</option><option value="372">EE +372</option>
+                            <option value="20">EG +20</option><option value="212">EH +212</option>
+                            <option value="291">ER +291</option><option value="34">ES +34</option>
+                            <option value="251">ET +251</option><option value="358">FI +358</option>
+                            <option value="679">FJ +679</option><option value="691">FM +691</option>
+                            <option value="298">FO +298</option><option value="33">FR +33</option>
+                            <option value="241">GA +241</option><option value="44">GB +44</option>
+                            <option value="1473">GD +1473</option><option value="995">GE +995</option>
+                            <option value="44">GG +44</option><option value="233">GH +233</option>
+                            <option value="350">GI +350</option><option value="299">GL +299</option>
+                            <option value="220">GM +220</option><option value="224">GN +224</option>
+                            <option value="590">GP +590</option><option value="240">GQ +240</option>
+                            <option value="30">GR +30</option><option value="502">GT +502</option>
+                            <option value="1671">GU +1671</option><option value="245">GW +245</option>
+                            <option value="592">GY +592</option><option value="852">HK +852</option>
+                            <option value="504">HN +504</option><option value="385">HR +385</option>
+                            <option value="509">HT +509</option><option value="36">HU +36</option>
+                            <option value="62">ID +62</option><option value="353">IE +353</option>
+                            <option value="972">IL +972</option><option value="44">IM +44</option>
+                            <option value="91">IN +91</option><option value="964">IQ +964</option>
+                            <option value="98">IR +98</option><option value="354">IS +354</option>
+                            <option value="39">IT +39</option><option value="44">JE +44</option>
+                            <option value="1876">JM +1876</option><option value="962">JO +962</option>
+                            <option value="81">JP +81</option><option value="254">KE +254</option>
+                            <option value="996">KG +996</option><option value="855">KH +855</option>
+                            <option value="686">KI +686</option><option value="269">KM +269</option>
+                            <option value="1869">KN +1869</option><option value="850">KP +850</option>
+                            <option value="82">KR +82</option><option value="965">KW +965</option>
+                            <option value="1345">KY +1345</option><option value="7">KZ +7</option>
+                            <option value="856">LA +856</option><option value="961">LB +961</option>
+                            <option value="1758">LC +1758</option><option value="423">LI +423</option>
+                            <option value="94">LK +94</option><option value="231">LR +231</option>
+                            <option value="266">LS +266</option><option value="370">LT +370</option>
+                            <option value="352">LU +352</option><option value="371">LV +371</option>
+                            <option value="218">LY +218</option><option value="212">MA +212</option>
+                            <option value="377">MC +377</option><option value="373">MD +373</option>
+                            <option value="382">ME +382</option><option value="261">MG +261</option>
+                            <option value="692">MH +692</option><option value="389">MK +389</option>
+                            <option value="223">ML +223</option><option value="95">MM +95</option>
+                            <option value="976">MN +976</option><option value="853">MO +853</option>
+                            <option value="596">MQ +596</option><option value="222">MR +222</option>
+                            <option value="1664">MS +1664</option><option value="356">MT +356</option>
+                            <option value="230">MU +230</option><option value="960">MV +960</option>
+                            <option value="265">MW +265</option><option value="52">MX +52</option>
+                            <option value="60">MY +60</option><option value="258">MZ +258</option>
+                            <option value="264">NA +264</option><option value="687">NC +687</option>
+                            <option value="227">NE +227</option><option value="234">NG +234</option>
+                            <option value="505">NI +505</option><option value="31">NL +31</option>
+                            <option value="47">NO +47</option><option value="977">NP +977</option>
+                            <option value="674">NR +674</option><option value="64">NZ +64</option>
+                            <option value="968">OM +968</option><option value="507">PA +507</option>
+                            <option value="51">PE +51</option><option value="689">PF +689</option>
+                            <option value="675">PG +675</option><option value="63">PH +63</option>
+                            <option value="92">PK +92</option><option value="48">PL +48</option>
+                            <option value="1787">PR +1787</option><option value="970">PS +970</option>
+                            <option value="351">PT +351</option><option value="680">PW +680</option>
+                            <option value="595">PY +595</option><option value="974">QA +974</option>
+                            <option value="262">RE +262</option><option value="40">RO +40</option>
+                            <option value="381">RS +381</option><option value="7">RU +7</option>
+                            <option value="250">RW +250</option><option value="966">SA +966</option>
+                            <option value="677">SB +677</option><option value="248">SC +248</option>
+                            <option value="249">SD +249</option><option value="46">SE +46</option>
+                            <option value="65">SG +65</option><option value="386">SI +386</option>
+                            <option value="421">SK +421</option><option value="232">SL +232</option>
+                            <option value="378">SM +378</option><option value="221">SN +221</option>
+                            <option value="252">SO +252</option><option value="597">SR +597</option>
+                            <option value="239">ST +239</option><option value="503">SV +503</option>
+                            <option value="963">SY +963</option><option value="268">SZ +268</option>
+                            <option value="1649">TC +1649</option><option value="235">TD +235</option>
+                            <option value="228">TG +228</option><option value="66">TH +66</option>
+                            <option value="992">TJ +992</option><option value="670">TL +670</option>
+                            <option value="993">TM +993</option><option value="216">TN +216</option>
+                            <option value="676">TO +676</option><option value="90">TR +90</option>
+                            <option value="1868">TT +1868</option><option value="688">TV +688</option>
+                            <option value="886">TW +886</option><option value="255">TZ +255</option>
+                            <option value="380">UA +380</option><option value="256">UG +256</option>
+                            <option value="1">US +1</option><option value="598">UY +598</option>
+                            <option value="998">UZ +998</option><option value="379">VA +379</option>
+                            <option value="1784">VC +1784</option><option value="58">VE +58</option>
+                            <option value="1284">VG +1284</option><option value="1340">VI +1340</option>
+                            <option value="84" selected>VN +84</option><option value="678">VU +678</option>
+                            <option value="685">WS +685</option><option value="967">YE +967</option>
+                            <option value="27">ZA +27</option><option value="260">ZM +260</option>
+                            <option value="263">ZW +263</option>
+                        </select>
+                        <input class="tong2" type="text" name="sodiemthoai" id="" placeholder="Số điện thoại">
+                    </div>
+                    <div class="home">
+                        <select id="sso_register_form_select_country" name="select_country">
+        
+                            <option value="AF"><p>Afghanistan (افغانستان&lrm;) </p></option>
+                            <option value="AL"><p>Albania (Shqipëria&lrm;) </p></option>
+                            <option value="DZ"><p>Algeria (الجزائر&lrm;) </p></option>
+                            <option value="AS"><p>American Samoa </p></option>
+                            <option value="AD"><p>Andorra </p></option>
+                            <option value="AO"><p>Angola </p></option>
+                            <option value="AI"><p>Anguilla </p></option>
+                            <option value="AG"><p>Antigua and Barbuda </p></option>
+                            <option value="AR"><p>Argentina </p></option>
+                            <option value="AM"><p>Armenia </p></option>
+                            <option value="AW"><p>Aruba </p></option>
+                            <option value="AU"><p>Australia </p></option>
+                            <option value="AT"><p>Austria (Österreich&lrm;) </p></option>
+                            <option value="AZ"><p>Azerbaijan (Azərbaycan&lrm;) </p></option>
+                            <option value="BS"><p>Bahamas </p></option>
+                            <option value="BH"><p>Bahrain (البحرين&lrm;) </p></option>
+                            <option value="BD"><p>Bangladesh (বাংলাদেশ&lrm;) </p></option>
+                            <option value="BB"><p>Barbados </p></option>
+                            <option value="BY"><p>Belarus (Белару́сь&lrm;) </p></option>
+                            <option value="BE"><p>Belgium (België&lrm;) </p></option>
+                            <option value="BZ"><p>Belize </p></option>
+                            <option value="BJ"><p>Benin (Bénin&lrm;) </p></option>
+                            <option value="BM"><p>Bermuda </p></option>
+                            <option value="BT"><p>Bhutan </p></option>
+                            <option value="BO"><p>Bolivia </p></option>
+                            <option value="BA"><p>Bosnia and Herzegovina (Bosna i Hercegovina&lrm;) </p></option>
+                            <option value="BW"><p>Botswana </p></option>
+                            <option value="BR"><p>Brazil (Brasil&lrm;) </p></option>
+                            <option value="BN"><p>Brunei Darussalam (Brunei Darussalam&lrm;) </p></option>
+                            <option value="BG"><p>Bulgaria (България&lrm;) </p></option>
+                            <option value="BF"><p>Burkina Faso </p></option>
+                            <option value="BI"><p>Burundi (Uburundi&lrm;) </p></option>
+                            <option value="KH"><p>Cambodia (Kampuchea&lrm;) </p></option>
+                            <option value="CM"><p>Cameroon (Cameroun&lrm;) </p></option>
+                            <option value="CA"><p>Canada </p></option>
+                            <option value="CV"><p>Cape Verde </p></option>
+                            <option value="KY"><p>Cayman Islands </p></option>
+                            <option value="CF"><p>Central African Republic (République Centrafricaine&lrm;) </p></option>
+                            <option value="TD"><p>Chad (Tchad&lrm;) </p></option>
+                            <option value="CL"><p>Chile </p></option>
+                            <option value="CN"><p>China (中国&lrm;) </p></option>
+                            <option value="CO"><p>Colombia </p></option>
+                            <option value="KM"><p>Comoros (Comores&lrm;) </p></option>
+                            <option value="CD"><p>Congo (DRC) </p></option>
+                            <option value="CG"><p>Congo (Republic) </p></option>
+                            <option value="CK"><p>Cook Islands </p></option>
+                            <option value="CR"><p>Costa Rica </p></option>
+                            <option value="CI"><p>Côte d'Ivoire </p></option>
+                            <option value="HR"><p>Croatia (Hrvatska&lrm;) </p></option>
+                            <option value="CU"><p>Cuba </p></option>
+                            <option value="CY"><p>Cyprus (Κυπρος&lrm;) </p></option>
+                            <option value="CZ"><p>Czech Republic (Česko&lrm;) </p></option>
+                            <option value="DK"><p>Denmark (Danmark&lrm;) </p></option>
+                            <option value="DJ"><p>Djibouti </p></option>
+                            <option value="DM"><p>Dominica </p></option>
+                            <option value="DO"><p>Dominican Republic </p></option>
+                            <option value="EC"><p>Ecuador </p></option>
+                            <option value="EG"><p>Egypt (مصر&lrm;) </p></option>
+                            <option value="SV"><p>El Salvador </p></option>
+                            <option value="GQ"><p>Equatorial Guinea (Guinea Ecuatorial&lrm;) </p></option>
+                            <option value="ER"><p>Eritrea (Ertra&lrm;) </p></option>
+                            <option value="EE"><p>Estonia (Eesti&lrm;) </p></option>
+                            <option value="ET"><p>Ethiopia (Ityop&amp;#39;iya&lrm;) </p></option>
+                            <option value="FO"><p>Faroe Islands </p></option>
+                            <option value="FJ"><p>Fiji </p></option>
+                            <option value="FI"><p>Finland (Suomi&lrm;) </p></option>
+                            <option value="FR"><p>France </p></option>
+                            <option value="PF"><p>French Polynesia </p></option>
+                            <option value="GA"><p>Gabon </p></option>
+                            <option value="GM"><p>Gambia </p></option>
+                            <option value="GE"><p>Georgia (საქართველო&lrm;) </p></option>
+                            <option value="DE"><p>Germany (Deutschland&lrm;) </p></option>
+                            <option value="GH"><p>Ghana </p></option>
+                            <option value="GI"><p>Gibraltar </p></option>
+                            <option value="GR"><p>Greece (Ελλάς&lrm;) </p></option>
+                            <option value="GL"><p>Greenland </p></option>
+                            <option value="GD"><p>Grenada </p></option>
+                            <option value="GP"><p>Guadeloupe </p></option>
+                            <option value="GU"><p>Guam </p></option>
+                            <option value="GT"><p>Guatemala </p></option>
+                            <option value="GG"><p>Guernsey </p></option>
+                            <option value="GN"><p>Guinea (Guinée&lrm;) </p></option>
+                            <option value="GW"><p>Guinea-Bissau (Guiné-Bissau&lrm;) </p></option>
+                            <option value="GY"><p>Guyana </p></option>
+                            <option value="HT"><p>Haiti </p></option>
+                            <option value="HN"><p>Honduras </p></option>
+                            <option value="HK"><p>Hong Kong </p></option>
+                            <option value="HU"><p>Hungary (Magyarország&lrm;) </p></option>
+                            <option value="IS"><p>Iceland (Ísland&lrm;) </p></option>
+                            <option value="IN"><p>India </p></option>
+                            <option value="ID"><p>Indonesia </p></option>
+                            <option value="IR"><p>Iran (ایران&lrm;) </p></option>
+                            <option value="IQ"><p>Iraq (العراق&lrm;) </p></option>
+                            <option value="IE"><p>Ireland </p></option>
+                            <option value="IM"><p>Isle of Man </p></option>
+                            <option value="IL"><p>Israel (ישראל&lrm;) </p></option>
+                            <option value="IT"><p>Italy (Italia&lrm;) </p></option>
+                            <option value="JM"><p>Jamaica </p></option>
+                            <option value="JP"><p>Japan (日本&lrm;) </p></option>
+                            <option value="JE"><p>Jersey </p></option>
+                            <option value="JO"><p>Jordan (الاردن&lrm;) </p></option>
+                            <option value="KZ"><p>Kazakhstan (Казахстан&lrm;) </p></option>
+                            <option value="KE"><p>Kenya </p></option>
+                            <option value="KI"><p>Kiribati </p></option>
+                            <option value="KW"><p>Kuwait (الكويت&lrm;) </p></option>
+                            <option value="KG"><p>Kyrgyzstan (Кыргызстан&lrm;) </p></option>
+                            <option value="LA"><p>Laos (ນລາວ&lrm;) </p></option>
+                            <option value="LV"><p>Latvia (Latvija&lrm;) </p></option>
+                            <option value="LB"><p>Lebanon (لبنان&lrm;) </p></option>
+                            <option value="LS"><p>Lesotho </p></option>
+                            <option value="LR"><p>Liberia </p></option>
+                            <option value="LY"><p>Libya </p></option>
+                            <option value="LI"><p>Liechtenstein </p></option>
+                            <option value="LT"><p>Lithuania (Lietuva&lrm;) </p></option>
+                            <option value="LU"><p>Luxembourg (Lëtzebuerg&lrm;) </p></option>
+                            <option value="MO"><p>Macao </p></option>
+                            <option value="MK"><p>Macedonia (Македонија&lrm;) </p></option>
+                            <option value="MG"><p>Madagascar (Madagasikara&lrm;) </p></option>
+                            <option value="MW"><p>Malawi </p></option>
+                            <option value="MY"><p>Malaysia </p></option>
+                            <option value="MV"><p>Maldives (ގުޖޭއްރާ ޔާއްރިހޫމްޖ&lrm;) </p></option>
+                            <option value="ML"><p>Mali </p></option>
+                            <option value="MT"><p>Malta </p></option>
+                            <option value="MH"><p>Marshall Islands </p></option>
+                            <option value="MQ"><p>Martinique </p></option>
+                            <option value="MR"><p>Mauritania (موريتانيا&lrm;) </p></option>
+                            <option value="MU"><p>Mauritius </p></option>
+                            <option value="MX"><p>Mexico (México&lrm;) </p></option>
+                            <option value="FM"><p>Micronesia </p></option>
+                            <option value="MD"><p>Moldova </p></option>
+                            <option value="MC"><p>Monaco </p></option>
+                            <option value="MN"><p>Mongolia (Монгол Улс&lrm;) </p></option>
+                            <option value="ME"><p>Montenegro (Црна Гора&lrm;) </p></option>
+                            <option value="MS"><p>Montserrat </p></option>
+                            <option value="MA"><p>Morocco (المغرب&lrm;) </p></option>
+                            <option value="MZ"><p>Mozambique (Moçambique&lrm;) </p></option>
+                            <option value="MM"><p>Myanmar (Burma) (Myanma&lrm;) </p></option>
+                            <option value="NA"><p>Namibia </p></option>
+                            <option value="NR"><p>Nauru (Naoero&lrm;) </p></option>
+                            <option value="NP"><p>Nepal (नेपाल&lrm;) </p></option>
+                            <option value="NL"><p>Netherlands (Nederland&lrm;) </p></option>
+                            <option value="NC"><p>New Caledonia </p></option>
+                            <option value="NZ"><p>New Zealand </p></option>
+                            <option value="NI"><p>Nicaragua </p></option>
+                            <option value="NE"><p>Niger </p></option>
+                            <option value="NG"><p>Nigeria </p></option>
+                            <option value="KP"><p>North Korea (조선&lrm;) </p></option>
+                            <option value="NO"><p>Norway (Norge&lrm;) </p></option>
+                            <option value="OM"><p>Oman (عمان&lrm;) </p></option>
+                            <option value="PK"><p>Pakistan (پاکستان&lrm;) </p></option>
+                            <option value="PW"><p>Palau </p></option>
+                            <option value="PS"><p>Palestinian Territory </p></option>
+                            <option value="PA"><p>Panama (Panamá&lrm;) </p></option>
+                            <option value="PG"><p>Papua New Guinea </p></option>
+                            <option value="PY"><p>Paraguay </p></option>
+                            <option value="PE"><p>Peru (Perú&lrm;) </p></option>
+                            <option value="PH"><p>Philippines (Pilipinas&lrm;) </p></option>
+                            <option value="PL"><p>Poland (Polska&lrm;) </p></option>
+                            <option value="PT"><p>Portugal </p></option>
+                            <option value="PR"><p>Puerto Rico </p></option>
+                            <option value="QA"><p>Qatar (قطر&lrm;) </p></option>
+                            <option value="RE"><p>Réunion </p></option>
+                            <option value="RO"><p>Romania (România&lrm;) </p></option>
+                            <option value="RU"><p>Russian Federation (Россия&lrm;) </p></option>
+                            <option value="RW"><p>Rwanda </p></option>
+                            <option value="KN"><p>Saint Kitts and Nevis </p></option>
+                            <option value="LC"><p>Saint Lucia </p></option>
+                            <option value="VC"><p>Saint Vincent and the Grenadines </p></option>
+                            <option value="WS"><p>Samoa </p></option>
+                            <option value="SM"><p>San Marino </p></option>
+                            <option value="ST"><p>São Tomé and Príncipe </p></option>
+                            <option value="SA"><p>Saudi Arabia (المملكة العربية السعودية&lrm;) </p></option>
+                            <option value="SN"><p>Senegal (Sénégal&lrm;) </p></option>
+                            <option value="RS"><p>Serbia (Србија&lrm;) </p></option>
+                            <option value="SC"><p>Seychelles </p></option>
+                            <option value="SL"><p>Sierra Leone </p></option>
+                            <option value="SG"><p>Singapore (Singapura&lrm;) </p></option>
+                            <option value="SK"><p>Slovakia (Slovensko&lrm;) </p></option>
+                            <option value="SI"><p>Slovenia (Slovenija&lrm;) </p></option>
+                            <option value="SB"><p>Solomon Islands </p></option>
+                            <option value="SO"><p>Somalia </p></option>
+                            <option value="ZA"><p>South Africa </p></option>
+                            <option value="KR"><p>South Korea (한국&lrm;) </p></option>
+                            <option value="ES"><p>Spain (España&lrm;) </p></option>
+                            <option value="LK"><p>Sri Lanka </p></option>
+                            <option value="SD"><p>Sudan (السودان&lrm;) </p></option>
+                            <option value="SR"><p>Suriname </p></option>
+                            <option value="SZ"><p>Swaziland </p></option>
+                            <option value="SE"><p>Sweden (Sverige&lrm;) </p></option>
+                            <option value="CH"><p>Switzerland (Schweiz&lrm;) </p></option>
+                            <option value="SY"><p>Syrian Arab Republic (سوريا&lrm;) </p></option>
+                            <option value="TW"><p>Taiwan (台灣&lrm;) </p></option>
+                            <option value="TJ"><p>Tajikistan (Тоҷикистон&lrm;) </p></option>
+                            <option value="TZ"><p>Tanzania </p></option>
+                            <option value="TH"><p>Thailand (ราชอาณาจักรไทย&lrm;) </p></option>
+                            <option value="TL"><p>Timor-Leste </p></option>
+                            <option value="TG"><p>Togo </p></option>
+                            <option value="TO"><p>Tonga </p></option>
+                            <option value="TT"><p>Trinidad and Tobago </p></option>
+                            <option value="TN"><p>Tunisia (تونس&lrm;) </p></option>
+                            <option value="TR"><p>Turkey (Türkiye&lrm;) </p></option>
+                            <option value="TM"><p>Turkmenistan (Türkmenistan&lrm;) </p></option>
+                            <option value="TC"><p>Turks and Caicos Islands </p></option>
+                            <option value="TV"><p>Tuvalu </p></option>
+                            <option value="UG"><p>Uganda </p></option>
+                            <option value="UA"><p>Ukraine (Україна&lrm;) </p></option>
+                            <option value="AE"><p>United Arab Emirates (الإمارات العربيّة المتّحدة&lrm;) </p></option>
+                            <option value="GB"><p>United Kingdom </p></option>
+                            <option value="US"><p>United States </p></option>
+                            <option value="UY"><p>Uruguay </p></option>
+                            <option value="UZ"><p>Uzbekistan (O'zbekiston&lrm;) </p></option>
+                            <option value="VU"><p>Vanuatu </p></option>
+                            <option value="VA"><p>Vatican City </p></option>
+                            <option value="VE"><p>Venezuela </p></option>
+                            <option value="VN" selected><p>Viet Nam (Việt Nam&lrm;) </p></option>
+                            <option value="VG"><p>Virgin Islands (British) </p></option>
+                            <option value="VI"><p>Virgin Islands (U.S.) </p></option>
+                            <option value="EH"><p>Western Sahara </p></option>
+                            <option value="YE"><p>Yemen (اليمن&lrm;) </p></option>
+                            <option value="ZM"><p>Zambia </p></option>
+                            <option value="ZW"><p>Zimbabwe </p></option>
+                        </select>
+                        <div class="terms_line">
+                                <div><input type="checkbox"></div>
+                                
+                                <span>Tôi đồng ý với&ensp;</span>
+                                <a href="#"> Điều Khoản Dịch Vụ </a>
+                                <span>&ensp;và&ensp;</span>
+                                <a href="#">Chính Sách Bảo Mật </a>
+                        </div>
+                        </div>
+                            <div class="home1"><input type="submit" value="Đăng ký">
+                        </div>
+                </form>
+                    
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
